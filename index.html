@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aditya_Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c8859ea00a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                 <img src="logo.png" class="logo"> 
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Journalist</p>
+                <h1>Hi, I'm <span>Aditya</span><br>Ranjan From India</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ---------------About----------------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                      <img src="A.JPG"><!-- Second Image for user -->
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Pursuing a career which takes out of the best of the personal traits, combining well with professional knowledge and allow me to work my way up into a position of more responsiblity, willing to work as a key player in challeging and creative environment</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('software')">Software</p>
+                        <p class="tab-links" onclick="opentab('language')">language</p>
+                        
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span><b>Communication</b></span><br>Communication</li>
+                            <li><span><b>Article & editorial</b></span><br>Article & editorial</li>
+                            <li><span><b>Anchoring</b></span><br>Anchoring</li>
+                            <li><span><b>Reporting News</b></span><br>Reporting News</li>
+                            <li><span><b>Writing Script</b></span><br>Writing Script</li>
+                            <li><span><b>Writing Voice over</b></span><br>Writing Voice over</li>
+                        </ul>
+
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span> <b>Dev Sanskriti Vishwavidyalaya| 2021-2022</b>  <br><i><b> CONTENT WRITER & EDITOR</b></i></span><br>Shraddhey ki kaksha se (Special Newspaper published durin Navratri )</li> 
+                         <ul>
+                                <li>Utsav newsletter(Annual university fest).</li>
+                               </ul>
+                               <ul>
+                                <li>Sanskriti sanchar(Campus Newspaper).</li>
+                               </ul>
+                               <ul>
+                                <li>Worked as content writer,editor & paper designer during these events.</li>
+                               </ul>
+                            <li><span> <b>DAINIK BHASKAR, PATNA | 2022</b></span><br>Worked as intern in Dainik Bhaskar Patna in edotorilal department. from 10th June to 10th July</li>
+                            <li><span><b>INDIA NEWS, DELHI | 2023</b> </span><br>Worked as intern in from 3rd June to 1 July.</li>
+                            <ul>
+                                <li>Done editing in video projects.</li>
+                            </ul>
+                            <ul>
+                                <li>Made news reports.</li>
+                            </ul>
+                            <li><span><b>VIDEO PRODUCTION</b></span><br>Had Won 1st prize in documentary making and 3rd prize in radio show in an international level competition held in srinath University, Jamshedpur, Jharkhand(2022).</li>
+                            <ul>
+                                <li>Worked as Video editor, anchor & Script writer in "Itihas se aaj". (Short video series on DSVV TV).</li>
+                            </ul>
+                            <ul>
+                                <li>Won 2nd Prize in news debate competition in International Hindi Festival, Srinath University, Jamshedpur (2023).<li>
+                            </ul>
+                           </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul> 
+                            <li><span><b>2021-2024</b></span><br>Dev Sanskriti Vishwavidyalaya,<br>Haridwar <br>Pursuing Bachelors in Journalism <br>and Mass Communication</li>
+                            <li><span><b>2019-2021</b></span><br>R.K College Madhubani <br>Intermediate</li>
+                            <li><span><b>2018-2019</b></span><br>S.S.G.B. Benipatti <br>Matriculation</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="software">
+                        <ul>
+                            <li><span><b>Basic computer skills</b></span><br>Basic computer skills</li>
+                            <li><span><b>Quark Express</b></span><br>Quark Express</li>
+                            <li><span><b>Adobe Indesign</b></span><br>Adobe Indesign</li>
+                            <li><span><b>Adobe Photoshop</b></span><br>Adobe Photoshop</li>
+                            <li><span><b>Hindi & English typing</b></span><br>Hindi & English Typing</li>
+                            <li><span><b>Word, Excel & PPT</b></span><br>Word,Excel & PPT</li>
+                            <li><span><b>Adobe Premiere Pro</b></span><br>Adobe Premiere Pro</li>
+                            <li><span><b>Canava</b></span><br>Canava</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="language">
+                        <ul>
+                            <li><span><b>English</b></span><br>English</li>
+                            <li><span><b>Hindi</b></span><br>Hindi</li>
+                            <li><span><b>Maithli</b></span><br>Maithli</li>
+                            <li><span><b>Maghi</b></span><br>Maghi</li>
+                        </ul>
+                    </div>
+                    
+
+                </div>
+            </div>
+        </div>    
+    </div>
+
+    <!-- -----------------Services--------------------------- -->
+     <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-duotone fa-photo-film"></i>
+                    <h2>Service 1</h2>
+                    <p>Descreption of Serice 1</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Service 2</h2>
+                    <p>Description of Service 2</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-regular fa-newspaper"></i>
+                    <h2>Service 3</h2>
+                    <p>Description of Service 3</p>
+                    <a href="#">learn more</a>
+                </div>
+            </div>
+        </div>  
+    </div> 
+<!-- --------------------------------Portfolio----------------------------------->
+   <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="work-1.png" >
+                <div class="layer">
+                    <h3>Sample Work 1</h3>
+                    <p>Some Descrption of Sample Work 1</p>
+                    <a href="https://www.instagram.com/adi_venturousjourn?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-2.png" >
+                <div class="layer">
+                    <h3>Sample Work 2</h3>
+                    <p>Some Description of Sample Work 2</p>
+                    <a href="https://www.instagram.com/adi_venturousjourn?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+               </div>
+                </div>
+            <div class="work">
+                <img src="work-3.png" >
+                <div class="layer">
+                    <h3>Sample Work 3</h3>
+                    <p>Some Description of sampe work 3</p>
+                    <a href="https://www.instagram.com/adi_venturousjourn?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                  </div>
+                </div>
+        </div>
+        <a href="https://www.instagram.com/adi_venturousjourn?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="btn">See more</a>
+    </div>
+   </div>
+<!-- -----------------contact-------------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p> <i class="fa-solid fa-paper-plane"></i>professionaladitya7@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+91 8809252968</p>
+                <p> <i class="fa-solid fa-house-user"></i>Block road, Benipatti, Distt Madhubani, Bihar-847223</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://x.com/?lang=en"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://www.instagram.com/adi_venturousjourn?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://in.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.youtube.com/"<i class="fa-brands fa-youtube"></i></a>
+                </div>
+                <a href="Aditya Ranjan Resume.pdf" download class="btn btn2" >Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Mesaage"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button> 
+                </form>
+                <span id="msg"></span>
+                
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Aditya. Made With <i class="fa-solid fa-heart"></i> by Adley Services</p>
+    </div>
+</div>
+
+
+
+
+   <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+        }
+
+        for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+
+    </script>
+    <form name="submit-to-google-sheet">
+        <!-- <input name="email" type="email" placeholder="Email" required>
+        <button type="submit">Send</button> -->
+      </form>
+      
+      <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbySmS31ali9qlD0NfTn0j4mQR7Xh6EF82KNiCaNEXFXaRQx0TPQRbSlAPrL7VNG8tn9/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+    
+</body>
+</html>
